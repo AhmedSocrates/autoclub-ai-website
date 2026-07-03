@@ -43,7 +43,7 @@ function Step({ number, title, description, image, imageAlt }) {
 
   return (
     <div ref={ref} className="animate-on-scroll relative flex flex-1 flex-col items-center text-center">
-      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 border-accent bg-base text-sm font-semibold text-accent">
+      <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full border-2 border-accent bg-canvas text-sm font-semibold text-accent">
         {number}
       </div>
       <h3 className="mt-6 text-lg font-semibold tracking-tight text-ink">
